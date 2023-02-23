@@ -1,4 +1,4 @@
-local REPOSITOTY = "https://raw.githubusercontent.com/Codermsk/slot_mc/master"
+local REP = "https://raw.githubusercontent.com/Codermsk/slot_mc/master"
 
 local shell = require("shell")
 shell.execute("wget -fq " .. REP .. "/launcher.lua /home/1.lua")
